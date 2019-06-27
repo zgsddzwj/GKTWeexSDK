@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'GKTWeexSDK_Example' do
+  pod 'GKTWeexSDK', :path => '../'
+
+  target 'GKTWeexSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
