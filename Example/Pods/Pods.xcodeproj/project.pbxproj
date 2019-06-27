@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		005456EBF45FE3FBD3A632A47582EF80 /* GKTWeexSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 852E14A7ABE698C56EC79FCE70101E70 /* GKTWeexSDK-dummy.m */; };
+		07B8C027D882A8D9D970EAA0B205ACC7 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 258D6F0EA412B217912C46B9A5DB3A23 /* ReplaceMe.m */; };
+		1F022CFEC7D3C4ACF536953C82F787C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3C37C6A1EDBFC01A4E23A9D5AF805C3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		538FB5AC17DB386F0F63C78413D90D09 /* Pods-GKTWeexSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AD00C15C68CFBBC1C349A45DA26C579 /* Pods-GKTWeexSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A2690A563838EFCD1B3F45A54FC78F8 /* GKTWeexSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C413DDC14880AB4C4B8FEAD017A7965 /* GKTWeexSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B25F0375FC41AD873CAD20E7EBBAF13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7790DA100FE80C323D9A7956BFEB69A7 /* Pods-GKTWeexSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E0AEA8EF77386028067D6A1687109D /* Pods-GKTWeexSDK_Example-dummy.m */; };
+		C77947D2420E196682FF1A09BA0D2479 /* Pods-GKTWeexSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 271AF6E272B13B981BC57743B9575F9A /* Pods-GKTWeexSDK_Tests-dummy.m */; };
+		D2631B96EC6DAAE41801EF55630E7652 /* Pods-GKTWeexSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E782BBD735AD4421E92D9A70B51CAFC3 /* Pods-GKTWeexSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A4CC12E6855D6E97BD73D11176F1631 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD8434E28FB3D4020BBDDABDC1C95DBE;
+			remoteInfo = GKTWeexSDK;
+		};
+		D195523046E514C295C778D34ADA76FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CE6972B40CC0D714305FFE012933A97;
+			remoteInfo = "Pods-GKTWeexSDK_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F727301B83A5BDAA4435E1EDCAE194D /* GKTWeexSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GKTWeexSDK-Info.plist"; sourceTree = "<group>"; };
+		13BEE01A6163AD646DB363B148A38C87 /* Pods-GKTWeexSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GKTWeexSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		193A9DA2F6D732BB9EA97D1C7EBE283E /* Pods-GKTWeexSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GKTWeexSDK_Example-Info.plist"; sourceTree = "<group>"; };
+		1CF27829194EEE67D2AAA5B47BCB4E75 /* Pods-GKTWeexSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GKTWeexSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		20C24BB0370FB8F79A4200A84A6E03D6 /* Pods-GKTWeexSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GKTWeexSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		258D6F0EA412B217912C46B9A5DB3A23 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = GKTWeexSDK/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		26E617FB46F503817FF56CEB248A6A80 /* Pods-GKTWeexSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GKTWeexSDK_Tests-Info.plist"; sourceTree = "<group>"; };
+		271AF6E272B13B981BC57743B9575F9A /* Pods-GKTWeexSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GKTWeexSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		2E87F253BE5CF68E48CAB3E32FFC585F /* GKTWeexSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GKTWeexSDK.framework; path = GKTWeexSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		333EE67C1395880D5B45C3E4B874778A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		47E4F228DCB2EEEA5BD6A306CD5A64FA /* Pods-GKTWeexSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GKTWeexSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5C413DDC14880AB4C4B8FEAD017A7965 /* GKTWeexSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GKTWeexSDK-umbrella.h"; sourceTree = "<group>"; };
+		5C6CBE96E9F0C74F4D8569359942E6E3 /* GKTWeexSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GKTWeexSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		60D000F78E17C7CDBAD7B3C82CD8A01A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7AD00C15C68CFBBC1C349A45DA26C579 /* Pods-GKTWeexSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GKTWeexSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		852E14A7ABE698C56EC79FCE70101E70 /* GKTWeexSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GKTWeexSDK-dummy.m"; sourceTree = "<group>"; };
+		8DBD83270302B1CBCFBCF257461F5CE0 /* Pods-GKTWeexSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GKTWeexSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8FE77912937F298483DFF72796D20E58 /* GKTWeexSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GKTWeexSDK.modulemap; sourceTree = "<group>"; };
+		99BB608205777D07A6CCC08A837FCFD4 /* Pods-GKTWeexSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GKTWeexSDK_Example.modulemap"; sourceTree = "<group>"; };
+		9AB66B631EFAEBCB6D2D38D813203715 /* Pods-GKTWeexSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GKTWeexSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A43CE754275AB55E59C1E48499D61093 /* Pods-GKTWeexSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GKTWeexSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B4E0AEA8EF77386028067D6A1687109D /* Pods-GKTWeexSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GKTWeexSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		B740DF2321D36E23DB83E235427EE29B /* Pods-GKTWeexSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GKTWeexSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C17AFEE39AA97CA00092D2F3D483E335 /* Pods_GKTWeexSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GKTWeexSDK_Example.framework; path = "Pods-GKTWeexSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF77708C80CEE81FC2673B9B2C558667 /* Pods-GKTWeexSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GKTWeexSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E61E517404B83C7ACA76E95C3061BA99 /* Pods_GKTWeexSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GKTWeexSDK_Tests.framework; path = "Pods-GKTWeexSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E782BBD735AD4421E92D9A70B51CAFC3 /* Pods-GKTWeexSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GKTWeexSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		F1089998B720B6493C832D7C6B0C280A /* GKTWeexSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GKTWeexSDK.xcconfig; sourceTree = "<group>"; };
+		F931CF7103466FBFD3849398E223D814 /* Pods-GKTWeexSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GKTWeexSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		FE173FE763D0CF18910BB82ED37349B1 /* GKTWeexSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GKTWeexSDK-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04EBF954D669D0E83FFAB5B766E0A350 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F022CFEC7D3C4ACF536953C82F787C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3827AFE110DE2418A277003AD898FC0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C37C6A1EDBFC01A4E23A9D5AF805C3A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9364102734AB53B0D6867FE86C22110 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B25F0375FC41AD873CAD20E7EBBAF13 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22359E1F4C8E607B173DEBF8E1FB62C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E87F253BE5CF68E48CAB3E32FFC585F /* GKTWeexSDK.framework */,
+				C17AFEE39AA97CA00092D2F3D483E335 /* Pods_GKTWeexSDK_Example.framework */,
+				E61E517404B83C7ACA76E95C3061BA99 /* Pods_GKTWeexSDK_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26847EA4E8EB6CC1C0ACD3D486E692D1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8FD650590853F897DA39628C64018EA /* GKTWeexSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		42A9EC6335A6DCD69FEB136CB4E3BE40 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5C6CBE96E9F0C74F4D8569359942E6E3 /* GKTWeexSDK.podspec */,
+				60D000F78E17C7CDBAD7B3C82CD8A01A /* LICENSE */,
+				333EE67C1395880D5B45C3E4B874778A /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4E6F627118E32FED4248B6A6DA1AEB08 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FE77912937F298483DFF72796D20E58 /* GKTWeexSDK.modulemap */,
+				F1089998B720B6493C832D7C6B0C280A /* GKTWeexSDK.xcconfig */,
+				852E14A7ABE698C56EC79FCE70101E70 /* GKTWeexSDK-dummy.m */,
+				0F727301B83A5BDAA4435E1EDCAE194D /* GKTWeexSDK-Info.plist */,
+				FE173FE763D0CF18910BB82ED37349B1 /* GKTWeexSDK-prefix.pch */,
+				5C413DDC14880AB4C4B8FEAD017A7965 /* GKTWeexSDK-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GKTWeexSDK";
+			sourceTree = "<group>";
+		};
+		76BD68EAC219050D3534718A3E6A8939 /* Pods-GKTWeexSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9AB66B631EFAEBCB6D2D38D813203715 /* Pods-GKTWeexSDK_Tests.modulemap */,
+				13BEE01A6163AD646DB363B148A38C87 /* Pods-GKTWeexSDK_Tests-acknowledgements.markdown */,
+				CF77708C80CEE81FC2673B9B2C558667 /* Pods-GKTWeexSDK_Tests-acknowledgements.plist */,
+				271AF6E272B13B981BC57743B9575F9A /* Pods-GKTWeexSDK_Tests-dummy.m */,
+				26E617FB46F503817FF56CEB248A6A80 /* Pods-GKTWeexSDK_Tests-Info.plist */,
+				7AD00C15C68CFBBC1C349A45DA26C579 /* Pods-GKTWeexSDK_Tests-umbrella.h */,
+				1CF27829194EEE67D2AAA5B47BCB4E75 /* Pods-GKTWeexSDK_Tests.debug.xcconfig */,
+				A43CE754275AB55E59C1E48499D61093 /* Pods-GKTWeexSDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-GKTWeexSDK_Tests";
+			path = "Target Support Files/Pods-GKTWeexSDK_Tests";
+			sourceTree = "<group>";
+		};
+		86860216B2C742CF992CD299BEAF8A7B /* Pods-GKTWeexSDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				99BB608205777D07A6CCC08A837FCFD4 /* Pods-GKTWeexSDK_Example.modulemap */,
+				8DBD83270302B1CBCFBCF257461F5CE0 /* Pods-GKTWeexSDK_Example-acknowledgements.markdown */,
+				B740DF2321D36E23DB83E235427EE29B /* Pods-GKTWeexSDK_Example-acknowledgements.plist */,
+				B4E0AEA8EF77386028067D6A1687109D /* Pods-GKTWeexSDK_Example-dummy.m */,
+				F931CF7103466FBFD3849398E223D814 /* Pods-GKTWeexSDK_Example-frameworks.sh */,
+				193A9DA2F6D732BB9EA97D1C7EBE283E /* Pods-GKTWeexSDK_Example-Info.plist */,
+				E782BBD735AD4421E92D9A70B51CAFC3 /* Pods-GKTWeexSDK_Example-umbrella.h */,
+				20C24BB0370FB8F79A4200A84A6E03D6 /* Pods-GKTWeexSDK_Example.debug.xcconfig */,
+				47E4F228DCB2EEEA5BD6A306CD5A64FA /* Pods-GKTWeexSDK_Example.release.xcconfig */,
+			);
+			name = "Pods-GKTWeexSDK_Example";
+			path = "Target Support Files/Pods-GKTWeexSDK_Example";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				26847EA4E8EB6CC1C0ACD3D486E692D1 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				22359E1F4C8E607B173DEBF8E1FB62C6 /* Products */,
+				E50A02AC5F681103FE81C17AEB0CE4ED /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E50A02AC5F681103FE81C17AEB0CE4ED /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				86860216B2C742CF992CD299BEAF8A7B /* Pods-GKTWeexSDK_Example */,
+				76BD68EAC219050D3534718A3E6A8939 /* Pods-GKTWeexSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F8FD650590853F897DA39628C64018EA /* GKTWeexSDK */ = {
+			isa = PBXGroup;
+			children = (
+				258D6F0EA412B217912C46B9A5DB3A23 /* ReplaceMe.m */,
+				42A9EC6335A6DCD69FEB136CB4E3BE40 /* Pod */,
+				4E6F627118E32FED4248B6A6DA1AEB08 /* Support Files */,
+			);
+			name = GKTWeexSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0417EA19D846DB73B30E559A02056DCD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				538FB5AC17DB386F0F63C78413D90D09 /* Pods-GKTWeexSDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BE11F8346FBE12ED1DA4C0F07951418 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A2690A563838EFCD1B3F45A54FC78F8 /* GKTWeexSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E248FAB44133E9C1AAA1E030C95BDDDD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2631B96EC6DAAE41801EF55630E7652 /* Pods-GKTWeexSDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2486D04435D205BFE5D84AA45C942CD6 /* Pods-GKTWeexSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA249955C86D2FC48A3AE0A81F5645E7 /* Build configuration list for PBXNativeTarget "Pods-GKTWeexSDK_Tests" */;
+			buildPhases = (
+				0417EA19D846DB73B30E559A02056DCD /* Headers */,
+				3A52BF699D2A5F565A6C05BFEE930962 /* Sources */,
+				04EBF954D669D0E83FFAB5B766E0A350 /* Frameworks */,
+				0F86FD2EB28B0A82D830CCD3162DCBD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45F8AFCE478C3618AA839E7411C9186E /* PBXTargetDependency */,
+			);
+			name = "Pods-GKTWeexSDK_Tests";
+			productName = "Pods-GKTWeexSDK_Tests";
+			productReference = E61E517404B83C7ACA76E95C3061BA99 /* Pods_GKTWeexSDK_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7CE6972B40CC0D714305FFE012933A97 /* Pods-GKTWeexSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8F95DC6F2A3196F71071A99E9DB598C /* Build configuration list for PBXNativeTarget "Pods-GKTWeexSDK_Example" */;
+			buildPhases = (
+				E248FAB44133E9C1AAA1E030C95BDDDD /* Headers */,
+				80FDCDC39E7E3E4B219DFDD5FF7C6264 /* Sources */,
+				3827AFE110DE2418A277003AD898FC0B /* Frameworks */,
+				54D73388FBD7DE3EC72C3B1B601A5F64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				538F09612ABFE8A2D657CAB3D175B196 /* PBXTargetDependency */,
+			);
+			name = "Pods-GKTWeexSDK_Example";
+			productName = "Pods-GKTWeexSDK_Example";
+			productReference = C17AFEE39AA97CA00092D2F3D483E335 /* Pods_GKTWeexSDK_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BD8434E28FB3D4020BBDDABDC1C95DBE /* GKTWeexSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3C23B38D6D06CB0DC571EF4327A73A4 /* Build configuration list for PBXNativeTarget "GKTWeexSDK" */;
+			buildPhases = (
+				7BE11F8346FBE12ED1DA4C0F07951418 /* Headers */,
+				D29970A6F2944D6BECADBC9EE9E107B5 /* Sources */,
+				C9364102734AB53B0D6867FE86C22110 /* Frameworks */,
+				FD06FB1D1CBBB6488E2285CC42C226CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GKTWeexSDK;
+			productName = GKTWeexSDK;
+			productReference = 2E87F253BE5CF68E48CAB3E32FFC585F /* GKTWeexSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 22359E1F4C8E607B173DEBF8E1FB62C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD8434E28FB3D4020BBDDABDC1C95DBE /* GKTWeexSDK */,
+				7CE6972B40CC0D714305FFE012933A97 /* Pods-GKTWeexSDK_Example */,
+				2486D04435D205BFE5D84AA45C942CD6 /* Pods-GKTWeexSDK_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F86FD2EB28B0A82D830CCD3162DCBD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54D73388FBD7DE3EC72C3B1B601A5F64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD06FB1D1CBBB6488E2285CC42C226CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A52BF699D2A5F565A6C05BFEE930962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C77947D2420E196682FF1A09BA0D2479 /* Pods-GKTWeexSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80FDCDC39E7E3E4B219DFDD5FF7C6264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7790DA100FE80C323D9A7956BFEB69A7 /* Pods-GKTWeexSDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D29970A6F2944D6BECADBC9EE9E107B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005456EBF45FE3FBD3A632A47582EF80 /* GKTWeexSDK-dummy.m in Sources */,
+				07B8C027D882A8D9D970EAA0B205ACC7 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45F8AFCE478C3618AA839E7411C9186E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GKTWeexSDK_Example";
+			target = 7CE6972B40CC0D714305FFE012933A97 /* Pods-GKTWeexSDK_Example */;
+			targetProxy = D195523046E514C295C778D34ADA76FA /* PBXContainerItemProxy */;
+		};
+		538F09612ABFE8A2D657CAB3D175B196 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GKTWeexSDK;
+			target = BD8434E28FB3D4020BBDDABDC1C95DBE /* GKTWeexSDK */;
+			targetProxy = 8A4CC12E6855D6E97BD73D11176F1631 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		50A5F12C54C30C6A3FC839FD2FDB1F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A43CE754275AB55E59C1E48499D61093 /* Pods-GKTWeexSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GKTWeexSDK_Tests/Pods-GKTWeexSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GKTWeexSDK_Tests/Pods-GKTWeexSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5A41FC2B091F2B93BFACBA0361CB0610 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1089998B720B6493C832D7C6B0C280A /* GKTWeexSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GKTWeexSDK/GKTWeexSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GKTWeexSDK/GKTWeexSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GKTWeexSDK/GKTWeexSDK.modulemap";
+				PRODUCT_MODULE_NAME = GKTWeexSDK;
+				PRODUCT_NAME = GKTWeexSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		78CF96F9A5752BAE68EDE661400410E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20C24BB0370FB8F79A4200A84A6E03D6 /* Pods-GKTWeexSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GKTWeexSDK_Example/Pods-GKTWeexSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GKTWeexSDK_Example/Pods-GKTWeexSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9A602F89994F42DC26D70E27224796CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1089998B720B6493C832D7C6B0C280A /* GKTWeexSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GKTWeexSDK/GKTWeexSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GKTWeexSDK/GKTWeexSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GKTWeexSDK/GKTWeexSDK.modulemap";
+				PRODUCT_MODULE_NAME = GKTWeexSDK;
+				PRODUCT_NAME = GKTWeexSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EEC5EBF5430D201BED0D24151F890B39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47E4F228DCB2EEEA5BD6A306CD5A64FA /* Pods-GKTWeexSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GKTWeexSDK_Example/Pods-GKTWeexSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GKTWeexSDK_Example/Pods-GKTWeexSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F52FFFC5FF82EBDE71EB8CC32565C5D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CF27829194EEE67D2AAA5B47BCB4E75 /* Pods-GKTWeexSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GKTWeexSDK_Tests/Pods-GKTWeexSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GKTWeexSDK_Tests/Pods-GKTWeexSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8F95DC6F2A3196F71071A99E9DB598C /* Build configuration list for PBXNativeTarget "Pods-GKTWeexSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78CF96F9A5752BAE68EDE661400410E1 /* Debug */,
+				EEC5EBF5430D201BED0D24151F890B39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3C23B38D6D06CB0DC571EF4327A73A4 /* Build configuration list for PBXNativeTarget "GKTWeexSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A41FC2B091F2B93BFACBA0361CB0610 /* Debug */,
+				9A602F89994F42DC26D70E27224796CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA249955C86D2FC48A3AE0A81F5645E7 /* Build configuration list for PBXNativeTarget "Pods-GKTWeexSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F52FFFC5FF82EBDE71EB8CC32565C5D6 /* Debug */,
+				50A5F12C54C30C6A3FC839FD2FDB1F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_GKTWeexSDK_Tests {
+  umbrella header "Pods-GKTWeexSDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

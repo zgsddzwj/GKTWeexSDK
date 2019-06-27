@@ -1,0 +1,6 @@
+framework module GKTWeexSDK {
+  umbrella header "GKTWeexSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

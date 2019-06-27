@@ -1,0 +1,16 @@
+PODS:
+  - GKTWeexSDK (0.1.0)
+
+DEPENDENCIES:
+  - GKTWeexSDK (from `../`)
+
+EXTERNAL SOURCES:
+  GKTWeexSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GKTWeexSDK: 14a9c606ab3f1b6076ed0ebea15ad1bb0e23a3ca
+
+PODFILE CHECKSUM: bffb39019c8bdf68dc4312299c8e8ac90c038d2f
+
+COCOAPODS: 1.7.2
