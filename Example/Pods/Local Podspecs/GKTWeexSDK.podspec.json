@@ -1,6 +1,6 @@
 {
   "name": "GKTWeexSDK",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "GKTWeexSDK Demo.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/zgsddzwj/GKTWeexSDK",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/zgsddzwj/GKTWeexSDK.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
